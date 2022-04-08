@@ -23,7 +23,7 @@ where the increase denotes the historical percentage increase in customer demand
 
 In this step, we will learn to use the IBM AutoAI capability to automatically select and build without coding. In the retail example we would use the increase column from demo dataset to understand the impact of promotion on customer demand.
 
-- Click _New asset +_ ![addtoProject](../images/addtoProject.png)in the upper-right of the screen. In the asset type screen, click AutoAI experiment.
+- Click _New asset +_ ![addtoProject](../images/addtoProject.png) in the upper-right of the screen. In the asset type screen, click AutoAI experiment.
 ![Step3](../images/Tutorial1-Step3.png)
 
 - Create the experiment. Give name example: *Promotion_prediction*. Click Create.Note: *If you have a Cloud Lite account, the Object Storage service you created in the previous step will be selected automatically.Otherwise, select a service from the drop-down menu*
