@@ -11,7 +11,7 @@ Watson Studio is an integrated platform designed to organize your project assets
 
 ### Step 2. Add data to the project
 - Click the Assets tab. The right-side window shows a load tab.
-- Click the browse link and select the demos.csv file from the folder.
+- First download our sample data: [demos.csv](data/demos.csv). Then click the browse link and select the _demos.csv_ file you just downloaded.
 - Click Open and the file is uploaded in cloud object storage
 
 ![Step2](../images/Tutorial1-Step2.png)
