@@ -31,7 +31,7 @@ In this step, we will learn to use the IBM AutoAI capability to automatically se
 - Now we need to select the data that will be used to train the model. Click Select from project. Our project has only one file. Click the demos.csv, then click Select asset.
 - Select ___No___ for time series forecast. Our data is not based on time series and we don't want to predict how values will develop over a given time range.
 - Now let's select the target attribute.In the Select column to predict window Click the scroll bar. Click ___Increase___ field to identify it as the target attribute.
-![Step3](../images/Tutorial1-Step3a.png)
+  ![Step3](../images/Tutorial1-Step3a.png)
 - Please note that Watson Studio already automatically selected the best _prediction type_ and based on which metric the winning model will be selected (_optimized for_). As this is already the best choice for our data and the inteded model, we do not need to modify these settings.
 - However, we want to look at the experiment settings and adjust one setting there.
   ![Step3](../images/Tutorial1-Step3b.png) 
