@@ -23,19 +23,19 @@ where the increase denotes the historical percentage increase in customer demand
 
 In this step, we will learn to use the IBM AutoAI capability to automatically select and build without coding. In the retail example we would use the increase column from demo dataset to understand the impact of promotion on customer demand.
 
-- Click _New asset +_ ![addtoProject](../images/addtoProject.png) in the upper-right of the screen. In the asset type screen, click AutoAI experiment.
+- Click _New asset +_ ![addtoProject](../images/addtoProject.png) in the upper-right of the screen. In the asset type screen, click AutoAI experiment.\
 ![Step3](../images/Tutorial1-Step3.png)
 
 - Create the experiment. Give name example: *Promotion_prediction*. Click Create.Note: *If you have a Cloud Lite account, the Object Storage service you created in the previous step will be selected automatically.Otherwise, select a service from the drop-down menu*
 - Click Create.
 - Now we need to select the data that will be used to train the model. Click Select from project. Our project has only one file. Click the demos.csv, then click Select asset.
 - Select ___No___ for time series forecast. Our data is not based on time series and we don't want to predict how values will develop over a given time range.
-- Now let's select the target attribute.In the Select column to predict window Click the scroll bar. Click ___Increase___ field to identify it as the target attribute.
+- Now let's select the target attribute.In the Select column to predict window Click the scroll bar. Click ___Increase___ field to identify it as the target attribute.\
   ![Step3](../images/Tutorial1-Step3a.png)
 - Please note that Watson Studio already automatically selected the best _prediction type_ and based on which metric the winning model will be selected (_optimized for_). As this is already the best choice for our data and the inteded model, we do not need to modify these settings.
-- However, we want to look at the experiment settings and adjust one setting there.
+- However, we want to look at the experiment settings and adjust one setting there.\
   ![Step3](../images/Tutorial1-Step3b.png) 
-- Within the Experiment Settings switch to ___Data source___ and turn off ___Use text feature engineering___. This is not needed as our model should only look for structured data. All text in our data are identifiers so we do not need to look for similarities in texts. ___Save___ this change to the experiment settings.
+- Within the Experiment Settings switch to ___Data source___ and turn off ___Use text feature engineering___. This is not needed as our model should only look for structured data. All text in our data are identifiers so we do not need to look for similarities in texts. ___Save___ this change to the experiment settings.\
   ![Step3](../images/Tutorial1-Step3c.png)
 - Click Run Experiment. Based on the column selected AutoAI automatically selects the optimized metric and starts preparing to build the model. Note you have the option to change experiment settings
 - You can see that Auto AI selects the model and does hyper parameter optimization and feature engineering on top of it.
