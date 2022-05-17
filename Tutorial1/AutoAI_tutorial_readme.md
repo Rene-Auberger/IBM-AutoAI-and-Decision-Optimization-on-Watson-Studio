@@ -11,12 +11,12 @@ Watson Studio is an integrated platform designed to organize your project assets
 
 ### Step 2. Add data to the project
 - Click the Assets tab. The right-side window shows a load tab.
-- First download our sample data: [demos.csv](data/demos.csv). Then click the browse link and select the _demos.csv_ file you just downloaded.
+- First download our sample data: [historic_sales_data.csv](data/historic_sales_data.csv). Then click the browse link and select the _historic_sales_data.csv_ file you just downloaded.
 - Click Open and the file is uploaded in cloud object storage
 
 ![Step2](../images/Tutorial1-Step2.png)
 
-Click demos.csv under Data assets. You can preview the first 1000 rows and all the columns for historical promotion data. Scroll on the right to look at all the columns. This is historical promotion dataset by store location
+Click historic_sales_data.csv under Data assets. You can preview the first 1000 rows and all the columns for historical promotion data. Scroll on the right to look at all the columns. This is historical promotion dataset by store location
 where the increase denotes the historical percentage increase in customer demand when there was any promotion. Click the Retail_lab on the top to go back to the project.
 
 ## Step 3. Create an AutoAI experiment
@@ -28,7 +28,7 @@ In this step, we will learn to use the IBM AutoAI capability to automatically se
 
 - Create the experiment. Give name example: *Promotion_prediction*. Click Create.Note: *If you have a Cloud Lite account, the Object Storage service you created in the previous step will be selected automatically.Otherwise, select a service from the drop-down menu*
 - Click Create.
-- Now we need to select the data that will be used to train the model. Click Select from project. Our project has only one file. Click the demos.csv, then click Select asset.
+- Now we need to select the data that will be used to train the model. Click Select from project. Our project has only one file. Click the historic_sales_data.csv, then click Select asset.
 - Select ___No___ for time series forecast. Our data is not based on time series and we don't want to predict how values will develop over a given time range.
 - Now let's select the target attribute.In the Select column to predict window Click the scroll bar. Click ___Increase___ field to identify it as the target attribute.\
   ![Step3](../images/Tutorial1-Step3a.png)
