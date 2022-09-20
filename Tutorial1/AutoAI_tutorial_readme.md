@@ -77,7 +77,42 @@ We look at saving deploying, testing and generating model scripts
 
 - Click the Test tab. In the Enter input data, the input data is tabular format or in JSON format and you can input a record to get the scoring result. On the screen paste the following
 
-{"input_data":[{"fields":["Class","discount","Holiday","PackSize","Week","Location"," PromoCost ","PromotionID"," stockonHand "," priceSell ","pricediscount"],"values":[["Confection",0.1,"yes","Case-Pkg","Wk10","Store14",87.22,null,"1006",134.49,121.041]]}]}
+```
+{
+    "input_data": [
+        {
+            "fields": [
+                "Class",
+                "discount",
+                "Holiday",
+                "PackSize",
+                "Week",
+                "Location",
+                " PromoCost ",
+                "PromotionID",
+                " stockonHand ",
+                " priceSell ",
+                "pricediscount"
+            ],
+            "values": [
+                [
+                    "Confection",
+                    0.1,
+                    "yes",
+                    "Case-Pkg",
+                    "Wk10",
+                    "Store14",
+                    87.22,
+                    null,
+                    "1006",
+                    134.49,
+                    121.041
+                ]
+            ]
+        }
+    ]
+}
+```
 
 - Click Predict.
 - We see the resulting scoring record showing the value 7.986. This means the model predicts and impact of promotion leading to an increase in demand for that class of product by 7.986 percent
